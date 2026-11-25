@@ -1,0 +1,8 @@
+{
+ "name": "胜率制助手 手机版",
+ "short_name": "胜率制助手",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#0f1216",
+ "theme_color": "#0f1216"
+}

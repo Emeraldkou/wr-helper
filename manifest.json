@@ -1,0 +1,66 @@
+{
+    "id":  "/",
+    "name":  "胜率制助手 手机版",
+    "short_name":  "胜率制助手",
+    "description":  "胜率制 TRPG 的制卡、战斗表、行动表与资料库助手：支持从者/御主卡导入、双方与三方胜率计算、效果结算队列、离线资料库。",
+    "lang":  "zh-CN",
+    "dir":  "ltr",
+    "start_url":  "./index.html",
+    "scope":  "./",
+    "display":  "standalone",
+    "display_override":  [
+                             "standalone",
+                             "minimal-ui"
+                         ],
+    "orientation":  "portrait",
+    "background_color":  "#0f1216",
+    "theme_color":  "#0f1216",
+    "categories":  [
+                       "productivity",
+                       "utilities",
+                       "games"
+                   ],
+    "prefer_related_applications":  false,
+    "icons":  [
+                  {
+                      "src":  "icon-192.png",
+                      "sizes":  "192x192",
+                      "type":  "image/png",
+                      "purpose":  "any"
+                  },
+                  {
+                      "src":  "icon-512.png",
+                      "sizes":  "512x512",
+                      "type":  "image/png",
+                      "purpose":  "any"
+                  },
+                  {
+                      "src":  "icon-192-maskable.png",
+                      "sizes":  "192x192",
+                      "type":  "image/png",
+                      "purpose":  "maskable"
+                  },
+                  {
+                      "src":  "icon-512-maskable.png",
+                      "sizes":  "512x512",
+                      "type":  "image/png",
+                      "purpose":  "maskable"
+                  }
+              ],
+    "screenshots":  [
+                        {
+                            "src":  "screenshot-wide.png",
+                            "sizes":  "1280x720",
+                            "type":  "image/png",
+                            "form_factor":  "wide",
+                            "label":  "卡库与资料库"
+                        },
+                        {
+                            "src":  "screenshot-narrow.png",
+                            "sizes":  "720x1280",
+                            "type":  "image/png",
+                            "form_factor":  "narrow",
+                            "label":  "手机端主界面"
+                        }
+                    ]
+}

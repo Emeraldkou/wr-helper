@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0f1216">
 <title>胜率制助手 · 手机版</title>
+<link rel="manifest" href="manifest.webmanifest">
 <style>
 /* 胜率制助手 3.2B —— 样式（无依赖，明暗自动） */
 :root {
@@ -4659,4 +4660,12 @@ else populateRuleMode();
   document.addEventListener('DOMContentLoaded', init);
 })();
 </script>
-</body></html>
+</body>
+<script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('./sw.js').catch(function (e) { console.warn('sw 注册失败', e); });
+  });
+}
+</script>
+</html>

@@ -1,4 +1,4 @@
-const C = 'wr-mobile-v7';
+﻿const C = 'wr-mobile-v8';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest',
   './icon-192.png', './icon-512.png',
